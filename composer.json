@@ -1,0 +1,24 @@
+{
+    "name": "inovasi/backup",
+    "description": "Backup your files and database into zip archive.",
+    "type": "library",
+    "homepage": "https://app.inovasiperpustakaan.com/backup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimas Ahmad Eka Putra",
+            "email": "dimasahmad@gmail.com"
+        }
+    ],
+    "require": {
+        "ifsnop/mysqldump-php": "^2.2",
+        "league/flysystem": "^1.0",
+        "league/flysystem-ziparchive": "^1.0",
+        "twistor/flysystem-stream-wrapper": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inovasi\\": "src/"
+        }
+    }
+}
