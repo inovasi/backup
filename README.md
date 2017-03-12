@@ -1,7 +1,7 @@
 # inovasi/backup
 Backup your files and database into zip archive.
 
-''' php
+```php
 use Inovasi\Backup;
 use Inovasi\BackupConfigurations;
 
@@ -16,3 +16,4 @@ $backup = new Backup(new BackupConfigurations([
 ]));
 
 $backup->doBackup();
+```
