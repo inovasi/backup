@@ -30,7 +30,7 @@ class BackupConfigurations
                 $configurations['backup_dir'] : getcwd() . '/..');
         $this->setApplicationDirectory(
             isset($configurations['app_dir']) ?
-                $configurations['backup_dir'] : getcwd());
+                $configurations['app_dir'] : getcwd());
 
         $this->setIgnoreList(
             isset($configurations['ignore'])?
